@@ -1,0 +1,20 @@
+//- Contact file
+
+extends base.pug
+
+block style
+    style 
+        include ../static/style.css
+        include ../static/contact.css
+
+block content
+    div.contact
+        h1 Contact Us
+        form(action="/contact", method="POST" class="myform")
+            input(type="text", name="name", class="myinput" , placeholder="Enter your name", required='')
+            input(type="age", name="age", class="myinput" , placeholder="Enter your age", required='')
+            input(type="number", name="phone_no", class="myinput" , placeholder="Enter your phone number", required='')
+            input(type="email", name="email", class="myinput" , placeholder="Enter your email id", required='')
+            input(type="text", name="description", class="myinput" , placeholder="Enter your concern", required='')
+            button(type="submit" class="submitbtn") SUBMIT
+     

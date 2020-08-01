@@ -1,0 +1,88 @@
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 3rem;
+    flex-direction: column;
+    background: center/cover no-repeat url('../pictures/bg.jpg');
+    background-attachment: fixed;
+    height: 570px;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+#small {
+    font-size: 22px;
+}
+
+#missionsection {
+    padding: 20px 30px;
+}
+
+#missionsection h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fondamento', cursive;
+    font-weight: 100;
+    color: lightcoral;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 330px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    font-size: 20px;
+}
+.cardbox img{
+    width: 70px;
+    height: 75px;
+}
+
+#sponsersection{
+    padding: 60px;
+}
+
+#sponsersection h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fondamento', cursive;
+    color: lightcoral;
+    font-weight: 100;
+}
+.sponserlogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponserlogos img{
+    width: 160px;
+    height: 70px;
+    margin: 30px;
+}

@@ -1,0 +1,35 @@
+//- Layout File
+
+doctype html
+html
+    head
+        title Show me your moves
+        link(rel='shortcut icon' href='../pictures/image.png' type='image/png')
+        link(rel='icon', href='/favicon.png', sizes='32x32', type='image/png')
+        link(rel='apple-touch-icon-precomposed', href='/apple-touch-icon-152x152-precomposed.png', type='image/png', sizes='152x152')
+        link(rel='apple-touch-icon-precomposed', href='/apple-touch-icon-152x152-precomposed.png', type='image/png', sizes='120x120')
+        link(rel='icon', href='/favicon-googletv.png', sizes='96x96', type='image/png')
+
+        block scripts
+            script(src='/jquery.js')
+        block style
+            style
+                include ../static/style.css
+
+    body
+        nav#navbar
+            div#logo
+                img(src="../pictures/logo2.png" alt="Logo")  
+                | ADA
+            ul
+                li #[a(href="/home") Home]
+                li #[a(href="/home") About]
+                li #[a(href="/contact") Contact]
+                li #[a(href="/home") Services]
+                li #[a(href="/home") Class Info]
+
+        block content
+        block foot
+        block script
+        footer#footer
+            | Copright © 2019 Arjun Dance Academy.com | All Right Reserved

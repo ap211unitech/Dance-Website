@@ -1,0 +1,46 @@
+//- Home Page
+
+extends base.pug
+
+block style
+    style 
+        include ../static/style.css
+        include ../static/home.css
+
+block content
+    section#intro
+        div Welcome to Best Dance academy
+        div#small Eat Sleep Dance Repeat
+
+
+    section#missionsection
+        h2 Our Missions
+
+
+        div#cards
+            div.card
+                h3 Dance Perfection
+                div.cardbox
+                    img(src="../pictures/logo.gif" alt="Logo")
+                    | This is best dance academy of universe.               
+
+            div.card
+                h3 Dance the way you like
+                div.cardbox
+                    img(src="../pictures/logo2.png" alt="Logo")
+                    | This is best dance academy of universe.
+            div.card
+                h3 Expert teaching
+                div.cardbox
+                    img(src="../pictures/logo.gif" alt="Logo")
+                    | This is best dance academy of universe.
+
+
+    section#sponsersection
+        h2 Our Sponsers
+            div.sponserlogos
+                img(src="../pictures/spon3.jpg" alt="Logo")
+                img(src="../pictures/spon1.png" alt="Logo")
+                img(src="../pictures/spon2.jpg" alt="Logo")
+                img(src="../pictures/spon4.jpg" alt="Logo")
+

@@ -1,0 +1,63 @@
+//- Index/Home File
+
+doctype html
+html
+   head
+      style
+         include ../static/style.css
+
+   body
+      nav#navbar
+         div#logo
+            img(src="../pictures/logo2.png", alt="Logo")  
+            | ADA
+         ul
+            li #[a(href="/home") Home]
+            li #[a(href="/home") About]
+            li #[a(href="/contact") Contact]
+            li #[a(href="/home") Services]
+            li #[a(href="/home") Class Info]
+
+      section#intro
+         div Welcome to Best Dance academy
+         div#small Eat Sleep Dance Repeat
+
+      
+      section#missionsection
+         h2 Our Missions
+
+
+         div#cards
+            div.card
+               h3 Dance Perfection
+               div.cardbox
+                  img(src="../pictures/logo.gif", alt="Logo")
+                  | This is best dance academy of universe.               
+
+            div.card
+               h3 Dance the way you like
+               div.cardbox
+                  img(src="../pictures/logo2.png", alt="Logo")
+                  | This is best dance academy of universe.
+            div.card
+               h3 Expert teaching
+               div.cardbox
+                  img(src="../pictures/logo.gif", alt="Logo")
+                  | This is best dance academy of universe.
+
+      
+      section#sponsersection
+         h2 Our Sponsers
+         div.sponserlogos
+            img(src="../pictures/spon3.jpg", alt="Logo")
+            img(src="../pictures/spon1.png", alt="Logo")
+            img(src="../pictures/spon2.jpg", alt="Logo")
+            img(src="../pictures/spon4.jpg", alt="Logo")
+
+
+      footer#footer
+         |  Copright © 2019 Arjun Dance Academy.com | All Right Reserved
+
+
+   script
+      include ../static/index.js
