@@ -13,7 +13,7 @@ const db = mongoose.connection;
 
 app.use(express.urlencoded()); //This is the way for taking data from form
 
-app.set('view engine', 'views');  //Using Pug 
+app.set('view engine', 'pug');  //Using Pug 
 app.set('views', './views');
 
 // app.use("/",postrequest);
